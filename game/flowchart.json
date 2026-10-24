@@ -1,0 +1,40 @@
+{
+  "flowcharts": [
+    {
+      "id": "main",
+      "name": "欢迎回来",
+      "type": "main",
+      "nodes": [
+        {
+          "id": "start",
+          "type": "root",
+          "position": { "x": 420, "y": 0 },
+          "data": { "label": "进入", "sceneName": "start.txt", "isRoot": true }
+        },
+        {
+          "id": "memoir",
+          "type": "chapter",
+          "position": { "x": 80, "y": 220 },
+          "data": { "label": "日记", "sceneName": "note-memoir.txt" }
+        },
+        {
+          "id": "shelf",
+          "type": "chapter",
+          "position": { "x": 420, "y": 220 },
+          "data": { "label": "索引", "sceneName": "note-shelf.txt" }
+        },
+        {
+          "id": "about",
+          "type": "chapter",
+          "position": { "x": 760, "y": 220 },
+          "data": { "label": "关于", "sceneName": "note-about.txt" }
+        }
+      ],
+      "edges": [
+        { "id": "e-start-memoir", "source": "start", "target": "memoir" },
+        { "id": "e-start-shelf", "source": "start", "target": "shelf" },
+        { "id": "e-start-about", "source": "start", "target": "about" }
+      ]
+    }
+  ]
+}

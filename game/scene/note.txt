@@ -1,0 +1,2 @@
+; 旧的共用笔记页。三个选项已经分开，这里只把还指过来的入口送回日记。
+changeScene:note-memoir.txt -next;

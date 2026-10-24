@@ -1,0 +1,185 @@
+/* 阅读站：暗色舞台、衬线、笔记页把文本框收成左侧纸页。 */
+
+html,
+body {
+  background: #0c0a0e;
+}
+
+#pixiContianer,
+[class*="pixiContainer"] {
+  z-index: 4 !important;
+}
+
+#root::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2560px;
+  height: 1440px;
+  pointer-events: none;
+  z-index: 5;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 52%, rgba(6, 4, 8, 0.42) 100%);
+  box-shadow: inset 0 0 160px 24px rgba(0, 0, 0, 0.22);
+}
+
+.TextBox_main,
+.TextBox_showName,
+.outer,
+.inner,
+.outerName,
+.innerName,
+.Choose_item,
+.Choose_item_outer,
+.Title_button_text,
+.Title_button_text_outer,
+.Title_buttonList::before,
+.Title_buttonList::after,
+#introContainer,
+#introContainer * {
+  font-family: "思源宋体", "Source Han Serif SC", serif !important;
+  font-style: normal !important;
+}
+
+.TextBox_showName {
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.32em !important;
+  left: 120px !important;
+  top: 156px !important;
+  height: auto !important;
+  line-height: 1.2 !important;
+  min-width: 0 !important;
+  padding: 0 0 8px 0 !important;
+}
+
+.miniAvatarContainer,
+.miniAvatarImg {
+  display: none !important;
+}
+
+.Choose_item_outer {
+  color: #f3ecdf !important;
+}
+
+/* 底栏只留全屏和静音。 */
+[class*="_main_rdjpk"] {
+  right: 56px !important;
+  bottom: 36px !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  z-index: 20 !important;
+}
+
+#note-mute {
+  background: transparent;
+  border: 0;
+  color: rgba(243, 236, 223, 0.82);
+  font-family: "思源宋体", "Source Han Serif SC", serif;
+  letter-spacing: 0.28em;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0.15em 0.35em;
+}
+
+html.note-mode .TextBox_main {
+  left: 96px !important;
+  right: auto !important;
+  top: 110px !important;
+  bottom: auto !important;
+  width: 1180px !important;
+  min-height: 1160px !important;
+  max-height: 1160px !important;
+  height: 1160px !important;
+  padding: 108px 88px 80px 120px !important;
+  color: #2c261f !important;
+  background: transparent !important;
+  justify-content: flex-start !important;
+}
+
+html.note-mode .TextBox_Background {
+  position: absolute !important;
+  inset: 0 !important;
+  background-color: rgba(246, 239, 224, 0.94) !important;
+  background-image:
+    linear-gradient(90deg, transparent 78px, rgba(176, 92, 78, 0.55) 78px, rgba(176, 92, 78, 0.55) 80px, transparent 80px),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 51px,
+      rgba(168, 148, 118, 0.45) 52px
+    ) !important;
+  background-position: 0 0, 0 96px !important;
+  border: 1px solid rgba(92, 72, 48, 0.28) !important;
+  box-shadow:
+    10px 16px 48px rgba(0, 0, 0, 0.38),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4) !important;
+}
+
+html.note-mode .TextBox_main,
+html.note-mode .outer,
+html.note-mode .readTextOuter {
+  color: #2c261f !important;
+  -webkit-text-fill-color: #2c261f !important;
+  text-shadow: none !important;
+}
+
+html.note-mode .text,
+html.note-mode .TextBox_textElement,
+html.note-mode .TextBox_textElement_Settled {
+  font-size: 34px !important;
+  line-height: 52px !important;
+}
+
+html.note-mode .TextBox_showName,
+html.note-mode .outerName {
+  color: #6e5344 !important;
+  -webkit-text-fill-color: #6e5344 !important;
+  top: 52px !important;
+  left: 120px !important;
+  font-size: 26px !important;
+  letter-spacing: 0.42em !important;
+}
+
+html.note-mode .TextBox_ShowName_Background {
+  border-bottom-color: rgba(120, 84, 62, 0.35) !important;
+}
+
+html.note-mode [class*="_main_rdjpk"] {
+  left: 128px !important;
+  right: auto !important;
+  bottom: 64px !important;
+}
+
+[class*="_singleButton_rdjpk"] {
+  font-size: 22px !important;
+  letter-spacing: 0.28em;
+  background: transparent !important;
+  padding: 0.15em 0.35em !important;
+  margin: 0 0.15em !important;
+}
+
+[class*="_button_text_rdjpk"] {
+  color: rgba(243, 236, 223, 0.82) !important;
+  text-shadow: none !important;
+  position: static !important;
+  padding-left: 0 !important;
+  bottom: auto !important;
+}
+
+[class*="_button_rdjpk"] {
+  display: none !important;
+}
+
+#introContainer {
+  letter-spacing: 0.4em;
+}
+
+#introContainer * {
+  letter-spacing: 0.36em !important;
+  font-weight: 400 !important;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,10 @@
+; 笔记式阅读站的开场引导。文案是占位，不摘博客，也不用旧剧本。
+; 引导曲 game/bgm/guide.mp3：HoliznaCC0《Moon Unit》，CC0。
+bgm:guide.mp3 -volume=80 -next;
+changeBg:guide-lake.jpg -duration=900 -next;
+changeFigure:alice-uniform.png -left -next -transform={"position":{"x":110,"y":310},"scale":{"x":1.38,"y":1.38}};
+changeFigure:aoko-uniform.png -right -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+引导:【待 Alice】引导第一句;
+引导:【待 Alice】引导第二句;
+引导:【待 Alice】引导第三句。点过这几行，下面会出现三个入口。;
+choose:【待 Alice】选项一:note-memoir.txt|【待 Alice】选项二:note-shelf.txt|【待 Alice】选项三:note-about.txt;

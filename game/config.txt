@@ -1,0 +1,9 @@
+Game_name:Aozaki Touko;
+Game_key:aozaki26;
+Title_img:title-moon.jpg;
+Title_bgm:title.mp3;
+; 标题曲 game/bgm/title.mp3：HoliznaCC0《The Ocean and the Moon》，CC0。见 ATTRIBUTION.md。
+Enable_Appreciation:false;
+Enable_Continue:false;
+Enable_flowchart:false;
+Default_Language:zh_CN;

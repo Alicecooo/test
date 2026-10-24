@@ -1,0 +1,2 @@
+; 旧门厅收拢。不再另开一套对话，回到现在的引导。
+changeScene:start.txt -next;

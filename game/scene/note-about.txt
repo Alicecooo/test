@@ -1,0 +1,18 @@
+; 选项三：关于页改成的说明笔记。标题仍是占位。
+; 笔记曲 game/bgm/note.mp3：Kevin MacLeod《Night Vigil》，CC BY 4.0。Pixabay 的 Back_Drop 直链打不开，用了这首。
+bgm:note.mp3 -volume=70 -next;
+changeBg:note-room.jpg -duration=700 -next;
+changeFigure:none -left -exitDuration=900 -next;
+changeFigure:aoko-calm.png -right -duration=700 -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+笔记:【关于 · 待 Alice 定题】;
+笔记:欢迎回来。;
+笔记:这个博客主要用来记录我的学习过程、项目实践、问题排查，和一些阶段性的思考。;
+changeFigure:aoko-reply.png -right -duration=650 -next -transform={"position":{"x":-70,"y":250},"scale":{"x":1.5,"y":1.5}};
+笔记:技术学习笔记，项目开发记，问题排查过程，工具使用经验，还有个人阶段总结。日记在另一页。;
+笔记:GitHub 上是 Alicecooo。;
+changeFigure:aoko-think.png -right -duration=650 -next -transform={"position":{"x":-320,"y":380},"scale":{"x":1.2,"y":1.2}};
+笔记:邮箱仍是 uuyyhwlngrrjrx[at]foxmail.com。;
+笔记:原来的博客还在原来的地方。这里没有改动它。;
+changeFigure:aoko-calm.png -right -duration=650 -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+笔记:早安、晚安、谢谢、再见。;
+choose:【待 Alice】选项一:note-memoir.txt|【待 Alice】选项二:note-shelf.txt|【待 Alice】选项三:note-about.txt;

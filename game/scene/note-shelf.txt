@@ -1,0 +1,25 @@
+; 选项二：书架改成的索引笔记。标题仍是占位。正文仍只到书脊和开头一句。
+; 笔记曲 game/bgm/note.mp3：Kevin MacLeod《Night Vigil》，CC BY 4.0。Pixabay 的 Back_Drop 直链打不开，用了这首。
+bgm:note.mp3 -volume=70 -next;
+changeBg:note-room.jpg -duration=700 -next;
+changeFigure:none -left -exitDuration=900 -next;
+changeFigure:aoko-calm.png -right -duration=700 -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+笔记:【索引 · 待 Alice 定题】;
+笔记:这边不放正文，只放书脊。笔记还在原来的博客里。;
+笔记:架子上大多是技术笔记。Mysql、Redis、Netty、RocketMQ、MyBatis、Zookeeper、Maven。;
+changeFigure:aoko-reply.png -right -duration=650 -next -transform={"position":{"x":-70,"y":250},"scale":{"x":1.5,"y":1.5}};
+笔记:Mysql 那本从体系结构写起，第一层是网络连接，还提到了连接池。;
+笔记:Redis 记得服务器把数据库放在 db 数组里，默认十六个，彼此独立，共用一块内存。;
+笔记:Netty 是一个异步、事件驱动的网络框架，用来包住 JDK 自带的 NIO。;
+changeFigure:aoko-think.png -right -duration=650 -next -transform={"position":{"x":-320,"y":380},"scale":{"x":1.2,"y":1.2}};
+笔记:RocketMQ 讲消息队列。下单若紧紧耦合着库存、物流和支付，其中一处故障，整个下单都会异常。;
+笔记:Zookeeper 是给分布式用的一棵树。半数以上节点还在，它就能继续服务，所以适合奇数台。;
+笔记:Maven 那本先写依赖，也就是当前项目要拿来用的那些 jar。;
+changeFigure:aoko-calm.png -right -duration=650 -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+笔记:课程另放一格。CSAPP、CS106B，还有 MIT 6.s081 的实验记录。;
+笔记:CSAPP 提醒过，不能用 x 减 y 小于零来代替 x 小于 y。溢出会骗人，负数和正数的范围也不对称。;
+笔记:CS106B 把递归收成一个方向。自相似的问题，适合用递归。问题若已经很小，就直接解。;
+笔记:6.s081 是 2025 年秋的操作系统实验。我记在虚拟机里的 Ubuntu 上。;
+笔记:算法那本只抽出滑动窗口。定长的时候，右端点在 i，左端点就是 i 减 k 再加一。三步：入，更新，出。;
+笔记:看完书脊就好。正文不搬进这页。;
+choose:【待 Alice】选项一:note-memoir.txt|【待 Alice】选项二:note-shelf.txt|【待 Alice】选项三:note-about.txt;

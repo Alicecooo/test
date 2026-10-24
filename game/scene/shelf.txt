@@ -1,0 +1,2 @@
+; 旧书架对话收拢到索引笔记。
+changeScene:note-shelf.txt -next;

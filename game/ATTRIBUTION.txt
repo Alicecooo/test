@@ -1,0 +1,37 @@
+完整说明在仓库根目录 ATTRIBUTION.md。这里是随 game/ 走的摘要。
+
+文字来自 Alicecooo 的博客《Aozaki Touko》，只读使用。
+没有修改原博客仓库，也没有向 github.com/Alicecooo 推送。
+
+博客：https://github.com/Alicecooo/Aozaki-Touko
+线上：https://alicecooo.github.io/Aozaki-Touko/
+
+台词
+- 标题 Aozaki Touko、问候「欢迎回来」、署名句「早安、晚安、谢谢、再见！」
+- 引导三句和三个选项标签是【待 Alice】占位，不摘博客。
+- note-memoir.txt 正文压缩自 content/posts/Summary-First.md 至 Summary-Fourth.md。标题是占位。
+- note-about.txt 正文压缩自 content/about/_index.md。标题是占位。
+- note-shelf.txt 只使用技术笔记的标题与各文开头一句：Mysql、Redis、Netty、RocketMQ、MyBatis、Zookeeper、Maven、CSAPP、CS106B、MIT 6.s081、算法：滑动窗口。
+
+当前入口用到的画面（Unsplash License）
+- title-moon.jpg：Maciek Sulkowski，月夜林。https://unsplash.com/photos/gmejHJ6k-VY
+- guide-lake.jpg：Yuan Jie Zhang，月湖。https://unsplash.com/photos/rPHiXlfIeEA
+- note-room.jpg：Loren Cutler，暗色书架与烛。https://unsplash.com/photos/gxxVCbenKJc
+- atmosphere.png、note.png 是早先的暗色底，当前脚本不引用。没有使用壳之少女、恋狱或 FLOWERS 的原盘当现在的主图。
+- Alice：Type-Moon 官方《魔法使之夜》久遠寺有珠。台上只用 alice-uniform.png。其余站姿留在 figure/，当前脚本不引用。
+- 青子：同一作品的蒼崎青子制服站姿。aoko-calm、aoko-reply 是 aoko-uniform 的副本；aoko-think 把透明度降到大约七成。没有新的表情差分。aoko-casual.png 不上台。
+- 立绘是官方角色图，只作个人试玩，没有再分发许可。
+
+game/background/ 里 FLOWERS 与殻ノ少女的空场景还在目录中，当前脚本不引用。经 Spriters Resource。个人试玩。
+
+图标是 Lucide 的 moon 线稿（ISC License，https://github.com/lucide-icons/lucide ），不是 WebGAL 默认图标。
+
+BGM 没有原盘。
+- title.mp3：HoliznaCC0《The Ocean and the Moon》，CC0。https://freemusicarchive.org/music/holiznacc0/will-you-miss-me/the-ocean-and-the-moon/
+- guide.mp3：HoliznaCC0《Moon Unit》，CC0。https://freemusicarchive.org/music/holiznacc0/public-domain-lofi/moon-unit-lofi-reflection-dreamy/
+- note.mp3：Kevin MacLeod《Night Vigil》，CC BY 4.0。https://incompetech.com/music/royalty-free/mp3-royaltyfree/Night%20Vigil.mp3
+  Music: Night Vigil by Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0。
+  指定的 Pixabay《Having Nothing》页面被 Cloudflare 挡住，没有挂上。
+
+旧的门厅、回忆录、书架、关于和结局脚本若被点到，会转到现在的笔记，不再另开一套对话。
+引擎是 OpenWebGAL/WebGAL 4.6.6 网页发行包，许可证 MPL-2.0。

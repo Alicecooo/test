@@ -1,0 +1,2 @@
+; 旧结局收拢，不再单走一套谢幕。
+changeScene:note-memoir.txt -next;

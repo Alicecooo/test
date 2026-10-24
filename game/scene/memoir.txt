@@ -1,0 +1,2 @@
+; 旧回忆录对话收拢到日记笔记。
+changeScene:note-memoir.txt -next;

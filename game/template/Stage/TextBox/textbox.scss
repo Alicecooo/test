@@ -1,0 +1,196 @@
+.TextBox_main {
+  z-index: 9;
+  position: absolute;
+  min-height: 460px;
+  max-height: 460px;
+  background-blend-mode: normal;
+  border-radius: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "思源宋体", "Source Han Serif SC", serif;
+  color: #f3ecdf;
+  padding: 176px 150px 42px 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  line-height: 1.55;
+  transition: left 0.33s;
+}
+
+.TextBox_main_miniavatarOff {
+  left: 0;
+  padding-left: 120px;
+}
+
+.TextBox_Background {
+  z-index: 8;
+  background-color: transparent;
+  background-image: linear-gradient(
+    to top,
+    rgba(6, 4, 8, 0.94) 0%,
+    rgba(8, 6, 10, 0.88) 42%,
+    rgba(8, 6, 10, 0.45) 72%,
+    rgba(8, 6, 10, 0) 100%
+  );
+  border-top: 0;
+  box-shadow: none;
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+
+@keyframes showSoftly {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.TextBox_textElement_start {
+  position: relative;
+  animation: TextDelayShow 1000ms ease-out forwards;
+  opacity: 0;
+}
+
+.outer {
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+  background-image: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: #f3ecdf;
+  color: #f3ecdf;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.inner {
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-text-stroke: 0;
+  color: rgba(12, 8, 8, 0.35);
+  text-shadow: none;
+  z-index: 1;
+}
+
+.zhanwei {
+  color: transparent;
+  white-space: nowrap;
+}
+
+.TextBox_textElement_Settled {
+  position: relative;
+  opacity: 1;
+}
+
+.TextBox_showName {
+  font-family: "思源宋体", "Source Han Serif SC", serif;
+  font-size: 46%;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  padding: 0 0 6px 0;
+  min-width: 0;
+  position: absolute;
+  left: 120px;
+  top: 148px;
+  height: auto;
+  line-height: 1.2;
+  border-radius: 0;
+  z-index: 3;
+  border: 0;
+  color: #e4d3ae;
+}
+
+.TextBox_ShowName_Background {
+  z-index: 2;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(196, 168, 120, 0.45);
+  border-image: none;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+@keyframes TextDelayShow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.miniAvatarContainer {
+  display: none;
+  position: absolute;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.miniAvatarImg {
+  display: none;
+}
+
+.nameContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.outerName {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: #e4d3ae;
+  color: #e4d3ae;
+  text-shadow: none;
+  z-index: 2;
+}
+
+.innerName {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-text-stroke: 0;
+  color: transparent;
+  text-shadow: none;
+  z-index: 1;
+}
+
+.text {
+  overflow: hidden;
+}
+
+.readText {
+}
+
+.readTextOuter {
+  background-image: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: #b7aa98;
+  color: #b7aa98;
+}
+
+.readTextInner {
+}

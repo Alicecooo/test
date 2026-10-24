@@ -1,0 +1,2 @@
+; 旧关于页对话收拢到说明笔记。
+changeScene:note-about.txt -next;

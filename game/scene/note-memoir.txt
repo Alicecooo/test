@@ -1,0 +1,24 @@
+; 选项一：回忆录改成的日记笔记。标题仍是占位。
+; 笔记曲 game/bgm/note.mp3：Kevin MacLeod《Night Vigil》，CC BY 4.0。Pixabay 的 Back_Drop 直链打不开，用了这首。
+bgm:note.mp3 -volume=70 -next;
+changeBg:note-room.jpg -duration=700 -next;
+changeFigure:none -left -exitDuration=900 -next;
+changeFigure:aoko-calm.png -right -duration=700 -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+笔记:【日记 · 待 Alice 定题】;
+笔记:回忆从更早的学期写起。那几篇的标题都叫 Summary，副题是记录、回忆。;
+笔记:七八月我在家待了两个月。考驾照，考到科二，还加进一个游戏文案小组。九月到了学校，高考砸了，被调剂。;
+changeFigure:aoko-reply.png -right -duration=650 -next -transform={"position":{"x":-70,"y":250},"scale":{"x":1.5,"y":1.5}};
+笔记:十月把 CS50 磨完了。我还是觉得自己太笨，磕磕绊绊，什么都不会写。理想和现实对不上，写不出来的时候，创作的热情就淡了。;
+笔记:十一月去摸数字电路。十二月仍是折磨。CS106B 推得很艰难。我一直怀疑自己适不适合学这些。;
+changeFigure:aoko-think.png -right -duration=650 -next -transform={"position":{"x":-320,"y":380},"scale":{"x":1.2,"y":1.2}};
+笔记:下学期我转专业成功了，也因此欠下好些课。时间，永不复焉。;
+笔记:消磨，消磨，消磨。我想我是在逃避。;
+changeFigure:aoko-calm.png -right -duration=650 -next -transform={"position":{"x":-200,"y":310},"scale":{"x":1.38,"y":1.38}};
+笔记:房檐下有一个破了的燕子巢。它们往年都会来，住在房檐下面。今年却没住在这里。;
+笔记:这河从我记事的时候就有了。先前有水，后来是黑水。现在是泥水，骑行过去，总还能听见呼呼的水声。;
+笔记:一桥东岸。它先前是一座正常的桥。后来发水冲塌了，人们用砂石填充，中间用空闲的水泥柱子贯通。;
+changeFigure:aoko-think.png -right -duration=650 -next -transform={"position":{"x":-320,"y":380},"scale":{"x":1.2,"y":1.2}};
+笔记:二十年了。房子从泥土变成了红砖。我想挣钱。实习是为了什么，大概也是为了挣钱。;
+笔记:初中毕业的暑假，我在家里看完了《魔法使之夜》。那是我印象里唯有的深刻回忆。;
+笔记:美好总是一去不返，令人徒自叹息。如梦幻泡影，如露亦如泪。;
+choose:【待 Alice】选项一:note-memoir.txt|【待 Alice】选项二:note-shelf.txt|【待 Alice】选项三:note-about.txt;
